@@ -6,17 +6,18 @@ export default class Navbarcom extends Component {
   render() {
     return (
       <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand className="brand">Amine Bouaziz's Website</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="mr-auto">
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-          </Nav>
-          <Nav>
-            <Nav.Link href="#deets">More deets</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
-              Dank memess
+        <Navbar.Collapse id="responsive-navbar-nav navbar">
+          <Nav className="ml-auto">
+            <Nav.Link className="mr-5" href="#features">
+              Curriculum vitae
+            </Nav.Link>
+            <Nav.Link className="mr-5" href="#pricing">
+              Projects
+            </Nav.Link>
+            <Nav.Link className="mr-5" href="#pricing">
+              Achivement
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
