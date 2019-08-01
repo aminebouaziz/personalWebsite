@@ -1,0 +1,29 @@
+.secFooter {
+  text-align: left;
+}
+.footer {
+  margin-top: 50px;
+}
+.cpy {
+  text-align: center;
+}
+.sec2 {
+  font-size: 1.8em;
+}
+.sec2 ul {
+  margin-top: 20px;
+}
+.sec2 li {
+  margin-top: 30px;
+}
+.socialMedia {
+  display: flex;
+}
+.socialMedia a,
+img {
+  width: 100%;
+}
+
+.cm {
+  margin-top: 20px;
+}
